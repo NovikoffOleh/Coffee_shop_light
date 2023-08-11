@@ -1142,7 +1142,7 @@ img {
   .about-intro__discription {
     font-size: 15px;
     line-height: 25px;
-    width: 398px;
+    width: 100%;
   }
 }
 
@@ -1166,7 +1166,7 @@ img {
     font-size: 15px;
     line-height: 25px;
     text-align: center;
-    width: 279px;
+    width: 100%;
   }
 }
 
@@ -1484,10 +1484,12 @@ img {
   }
 }
 
+
 .regstratsiya__container {
   width: 1110px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  height: 100%;
+  /*display: -webkit-box;
+  display: -ms-flexbox;*/
   display: flex;
 }
 
@@ -1521,6 +1523,7 @@ img {
 .regstratsiya__list {
   padding: 0px;
   margin: 0px;
+  
 }
 
 .regstratsiya__item:hover .regstratsiya__btn-num {
@@ -1548,6 +1551,7 @@ img {
 .regstratsiya__form-list {
   list-style: none;
   padding: 0px;
+  
 }
 
 .regstratsiya__form-item:not(:first-child) {
